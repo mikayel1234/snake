@@ -175,7 +175,7 @@ function sn()
 		{
 			if(reload==0)
 			{
-				loacation.reload();
+				location.reload();
 				reaload++;
 			}
 		}
@@ -188,7 +188,7 @@ function draw() {
 	{
 		if(reload==0)
 			{
-				loacation.reload();
+				location.reload();
 				reaload++;
 			}
 	}
