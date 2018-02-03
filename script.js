@@ -165,6 +165,13 @@ $('html').keyup(function(e){
 	}
 }).keydown(function(e){
 	key=0;
+	if(e.which==40||e.which==39||e.which==37||e.which==38)
+	{
+		clearInterval(a1);
+		clearInterval(a2);
+		clearInterval(a3);
+		clearInterval(a4);
+	}
 	
 });
 function sn()
