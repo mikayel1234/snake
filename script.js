@@ -173,7 +173,7 @@ function sn()
 	{
 		if(snakeCoord[snakeCoord.length-1].x==snakeCoord[i].x&&snakeCoord[snakeCoord.length-1].y==snakeCoord[i].y)
 		{
-			if(reload==0;)
+			if(reload==0)
 			{
 				loacation.reload();
 				reaload++;
@@ -186,7 +186,7 @@ function draw() {
 
 	if(snakeCoord[snakeCoord.length-1].x<0||snakeCoord[snakeCoord.length-1].x>matrix[0].length||snakeCoord[snakeCoord.length-1].y<0||snakeCoord[snakeCoord.length-1].y>matrix.length)
 	{
-		if(reload==0;)
+		if(reload==0)
 			{
 				loacation.reload();
 				reaload++;
