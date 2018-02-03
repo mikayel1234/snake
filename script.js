@@ -172,7 +172,7 @@ function sn()
 	{
 		if(snakeCoord[snakeCoord.length-1].x==snakeCoord[i].x&&snakeCoord[snakeCoord.length-1].y==snakeCoord[i].y)
 		{
-			window.location.reload()
+			window.location.href = window.location.pathname + window.location.search + window.location.hash;
 		}
 	}
 }
@@ -181,7 +181,7 @@ function draw() {
 
 	if(snakeCoord[snakeCoord.length-1].x<0||snakeCoord[snakeCoord.length-1].x>matrix[0].length||snakeCoord[snakeCoord.length-1].y<0||snakeCoord[snakeCoord.length-1].y>matrix.length)
 	{
-		window.location.reload()
+		window.location.href = window.location.pathname + window.location.search + window.location.hash;
 	}
 	else
 	
