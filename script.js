@@ -74,7 +74,7 @@ var a2;
 var a3;
 var a4;
 var presskey=39;
-var move=promopt("spped snake");
+var move=prompt("spped snake");
 rightSnake()
 a1=setInterval(rightSnake,move);
 $('html').keyup(function(e){
