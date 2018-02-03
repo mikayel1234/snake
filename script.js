@@ -74,7 +74,7 @@ var a2;
 var a3;
 var a4;
 var presskey=39;
-var move=300;
+var move=200;
 rightSnake()
 a1=setInterval(rightSnake,move);
 $('html').keyup(function(e){
